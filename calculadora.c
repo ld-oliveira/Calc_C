@@ -47,6 +47,6 @@ printf("erro: voce escreveu uma operacao invalida");
 return 1;
 }
 
-printf("%.2lf, %c, %.2lf, = %.2lf",  numero1, operacao, numero2, resultado);
+printf("%.1lf %c %.1lf, = %.1lf",  numero1, operacao, numero2, resultado);
     return 0;
 }
